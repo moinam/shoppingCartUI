@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 256GB",
+    "code": "GDN-0020",
+    "price": 190000,
+    "releaseDate": "March 19, 2016",
+    "descrip": "New Apple iPhone avialble in stores. Updates specs running m1 chips",
+    "rating": 4,
+    "imageUrl": "https://www.zdnet.com/a/hub/i/2021/01/07/e299f286-f53f-4fca-81d7-cf97d662ef3f/iphone-12-max-pro-review-best-phone.png"
+  },
+  {
+    "id": 2,
+    "name": "PlayStation 5",
+    "code": "GDN-0023",
+    "releaseDate": "March 18, 2016",
+    "descrip": "Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio,* and an all-new generation of incredible PlayStation® games.",
+    "price": 49999,
+    "rating": 5,
+    "imageUrl": "https://cdn.vox-cdn.com/thumbor/VglrPerYWsS9nkgrDe6KKXrimww=/0x0:2560x1440/920x613/filters:focal(1076x516:1484x924):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66934585/ishMfuW.0.png"
+  },
+  {
+    "id": 3,
+    "name": "Xbox Series X",
+    "code": "TBX-0048",
+    "releaseDate": "May 21, 2016",
+    "descrip": "Equipped with AMD’s Zen 2 and RDNA 2 architectures, DirectX ray tracing delivers true-to-life lighting, shadows and accurate reflections to create dynamic, living worlds.",
+    "price": 40000,
+    "rating": 4,
+    "imageUrl": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4FWbn?ver=b088&q=90&m=6&h=417&w=740&b=%23FFFFFFFF&l=f&o=t&aim=true"
+  },
+  {
+    "id": 4,
+    "name": "Microsoft Surface Pro",
+    "code": "TBX-0022",
+    "releaseDate": "May 15, 2016",
+    "descrip": "Experience the new laptop brought to you by Microsoft",
+    "price": 110000,
+    "rating": 3,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OvV27-44L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 5,
+    "name": "iPhone 15 256GB",
+    "code": "GDN-0020",
+    "price": 190000,
+    "releaseDate": "March 19, 2016",
+    "descrip": "New Apple iPhone avialble in stores. Updates specs running m1 chips",
+    "rating": 4,
+    "imageUrl": "https://www.zdnet.com/a/hub/i/2021/01/07/e299f286-f53f-4fca-81d7-cf97d662ef3f/iphone-12-max-pro-review-best-phone.png"
+  },
+  {
+    "id": 6,
+    "name": "PlayStation 5",
+    "code": "GDN-0023",
+    "releaseDate": "March 18, 2016",
+    "descrip": "Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio,* and an all-new generation of incredible PlayStation® games.",
+    "price": 49999,
+    "rating": 5,
+    "imageUrl": "https://cdn.vox-cdn.com/thumbor/VglrPerYWsS9nkgrDe6KKXrimww=/0x0:2560x1440/920x613/filters:focal(1076x516:1484x924):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66934585/ishMfuW.0.png"
+  },
+  {
+    "id": 7,
+    "name": "Xbox Series X",
+    "code": "TBX-0048",
+    "releaseDate": "May 21, 2016",
+    "descrip": "Equipped with AMD’s Zen 2 and RDNA 2 architectures, DirectX ray tracing delivers true-to-life lighting, shadows and accurate reflections to create dynamic, living worlds.",
+    "price": 40000,
+    "rating": 4,
+    "imageUrl": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4FWbn?ver=b088&q=90&m=6&h=417&w=740&b=%23FFFFFFFF&l=f&o=t&aim=true"
+  },
+  {
+    "id": 8,
+    "name": "Microsoft Surface Pro",
+    "code": "TBX-0022",
+    "releaseDate": "May 15, 2016",
+    "descrip": "Experience the new laptop brought to you by Microsoft",
+    "price": 110000,
+    "rating": 3,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OvV27-44L._AC_SL1500_.jpg"
+  },
+  {
+    "id": 9,
+    "name": "iPhone 15 256GB",
+    "code": "GDN-0020",
+    "price": 190000,
+    "releaseDate": "March 19, 2016",
+    "descrip": "New Apple iPhone avialble in stores. Updates specs running m1 chips",
+    "rating": 4,
+    "imageUrl": "https://www.zdnet.com/a/hub/i/2021/01/07/e299f286-f53f-4fca-81d7-cf97d662ef3f/iphone-12-max-pro-review-best-phone.png"
+  },
+  {
+    "id": 10,
+    "name": "PlayStation 5",
+    "code": "GDN-0023",
+    "releaseDate": "March 18, 2016",
+    "descrip": "Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio,* and an all-new generation of incredible PlayStation® games.",
+    "price": 49999,
+    "rating": 5,
+    "imageUrl": "https://cdn.vox-cdn.com/thumbor/VglrPerYWsS9nkgrDe6KKXrimww=/0x0:2560x1440/920x613/filters:focal(1076x516:1484x924):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66934585/ishMfuW.0.png"
+  },
+  {
+    "id": 11,
+    "name": "Xbox Series X",
+    "code": "TBX-0048",
+    "releaseDate": "May 21, 2016",
+    "descrip": "Equipped with AMD’s Zen 2 and RDNA 2 architectures, DirectX ray tracing delivers true-to-life lighting, shadows and accurate reflections to create dynamic, living worlds.",
+    "price": 40000,
+    "rating": 4,
+    "imageUrl": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4FWbn?ver=b088&q=90&m=6&h=417&w=740&b=%23FFFFFFFF&l=f&o=t&aim=true"
+  },
+  {
+    "id": 12,
+    "name": "Microsoft Surface Pro",
+    "code": "TBX-0022",
+    "releaseDate": "May 15, 2016",
+    "descrip": "Experience the new laptop brought to you by Microsoft",
+    "price": 110000,
+    "rating": 3,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OvV27-44L._AC_SL1500_.jpg"
+  }
+]
