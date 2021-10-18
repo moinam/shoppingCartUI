@@ -8,6 +8,10 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'checkout', component: CheckoutComponent},
   {path: 'all-products', component: ProductListComponent},
+   {
+    path: 'user',
+    loadChildren: () => import('./user/user.module').then((m) => m.UserModule)
+  },
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: '**', redirectTo: 'home', pathMatch: 'full'}
 ];

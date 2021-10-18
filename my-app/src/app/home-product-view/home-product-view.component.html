@@ -1,1 +1,35 @@
-<p>home-product-view works!</p>
+<div class="card-container" *ngFor="let row of rowCount">
+  <div *ngFor='let dataCell of getRowData(row)'>
+    <mat-card class="example-card">
+      <mat-card-header style="cursor: pointer;" (click)="openDialog(dataCell)">
+        <mat-card-title>{{dataCell.product.name}} ({{dataCell.product.code}})</mat-card-title>
+        <mat-card-subtitle>{{dataCell.product.price | currency:'INR':'symbol'}}</mat-card-subtitle>
+      </mat-card-header>
+      <img (click)="openDialog(dataCell)" mat-card-image src='{{dataCell.product.imageUrl}}'
+        alt="{{dataCell.product.name}}"
+        style="padding: 5px; height: 290px;">
+      <mat-card-content (click)="openDialog(dataCell)" style="margin-bottom: 5px; height: 120px;">
+        <p>
+          {{dataCell.product.descrip}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="row">
+          <div class="col-sm-6">
+            <button mat-button color="primary">ADD TO CART</button>
+          </div>
+          <div class="col-sm-6">
+            <label>Rating:</label>
+            <button class="pull-right" style="width: 20px;" mat-icon-button
+              *ngFor="let ratingId of ratingArr; index as i" [id]="'star_'+i" [matTooltip]="ratingId+1"
+              matTooltipPosition="above">
+              <mat-icon style="color: #ffd740;">
+                {{showIcon(i, dataCell.product.rating)}}
+              </mat-icon>
+            </button>
+          </div>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

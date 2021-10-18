@@ -9,6 +9,8 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialModule } from './common/material-module/material-module.module';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsModule } from './products/products.module';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { MaterialModule } from './common/material-module/material-module.module'
     BrowserAnimationsModule,
     NgbModule,
     MaterialModule,
+    HttpClientModule,
+    ProductsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

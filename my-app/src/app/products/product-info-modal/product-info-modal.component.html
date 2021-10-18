@@ -1,1 +1,35 @@
-<p>product-info-modal works!</p>
+<h1 mat-dialog-title>{{dataCell.product.name}} ({{dataCell.product.code}})</h1>
+<div mat-dialog-content>
+ <div class="row">
+   <div class="col-lg-4">
+     <img [src]='dataCell.product.imageUrl' [style.width.px] = '300' [style.margin.px]='2'
+       [title]='dataCell.product.name'>
+   </div>
+   <div class="col-lg-8" style="padding-left: 40px">
+    <div class="row">
+      <div class="col-lg-4">Name:</div>
+      <div class="col-lg-8">{{dataCell.product.name}}</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">Code:</div>
+      <div class="col-lg-8">{{dataCell.product.code}}</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">Description:</div>
+      <div class="col-lg-8">{{dataCell.product.descrip}}</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">Availability:</div>
+      <div class="col-lg-8">{{dataCell.product.releaseDate}}</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">Price:</div>
+      <div class="col-lg-8">{{dataCell.product.price| currency:'INR':'symbol'}}</div>
+    </div>
+   </div>
+ </div>>
+</div>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>OK</button>
+</mat-dialog-actions>
+
